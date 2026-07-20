@@ -20,7 +20,7 @@ def career_advice(filled, Amount, profit,timeperiod):
     I want to achieve the best growth and profit in  {timeperiod}
     
     Please Suggest me 
-    1. The best learning path to achieve my goal
+    1. The best learning path to 
     2. The best resources to learn from
     3. The best projects to work on
     4. The best way to build a portfolio
