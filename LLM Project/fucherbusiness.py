@@ -44,7 +44,7 @@ if st.button("Generate Business Plan 🚀"):
         st.warning("⚠ Please enter a investment amount before generating the plan.")
     else:
         with st.spinner("Generating your personalized roadmap..."):
-            advice = career_advice(tech, career, course, timeperiod)
+            advice = career_advice(filled, career, course, timeperiod)
             st.success("✅ Here’s your Career Roadmap:")
             st.write(advice)
 
