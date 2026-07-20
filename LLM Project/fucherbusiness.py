@@ -5,3 +5,5 @@ import streamlit as st
 
 st.title("🎓 AI Fucher Business Path Advisor")
 st.write("Fill in your preferences and get a Business roadmap!")
+
+
