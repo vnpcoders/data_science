@@ -40,7 +40,7 @@ profit = st.selectbox("Select minimum profit per month ", ["10%", "20%", "30%", 
 timeperiod = st.selectbox("Select Time Period", ["3 months", "6 months", "1 year", "2 years"])
 
 if st.button("Generate Business Plan 🚀"):
-    if career.strip() == "":
+    if amount.strip() == "":
         st.warning("⚠ Please enter a career goal before generating the plan.")
     else:
         with st.spinner("Generating your personalized roadmap..."):
