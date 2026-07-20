@@ -11,11 +11,11 @@ st.write("Fill in your preferences and get a personalized career roadmap!")
 genai.configure(api_key="Enter your API key")
 model = genai.GenerativeModel('gemini-1.5-flash')
 
-def career_advice(filled, Amount , course, timeperiod):
+def career_advice(tech, career, course, timeperiod):
     prompt = f"""
     your are my personal AI assistant that helps me with career advice.
-    I'm planning to start a Business in {filled}
-    My goal is to become a {Amount}
+    I'm planning to start a Business in {fille}
+    My goal is to become a {career}
     I want to pursue a course in {course}
     I want to achieve this goal in {timeperiod}
     
@@ -43,7 +43,7 @@ def career_advice(filled, Amount , course, timeperiod):
 #     print(advice)
 
 # Streamlit UI
-filled = st.selectbox("Select Technology", ["AI", "Data Science", "Web Development", "Cybersecurity", "Cloud Computing"])
+tech = st.selectbox("Select Technology", ["AI", "Data Science", "Web Development", "Cybersecurity", "Cloud Computing"])
 career = st.text_input("Enter Career Goal (e.g. Data Scientist, ML Engineer, Web Developer)")
 course = st.selectbox("Select Course Type", ["Bootcamp", "Certification", "Degree", "Self-paced Learning"])
 timeperiod = st.selectbox("Select Time Period", ["3 months", "6 months", "1 year", "2 years"])
