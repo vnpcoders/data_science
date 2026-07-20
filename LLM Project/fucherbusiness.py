@@ -17,7 +17,7 @@ def career_advice(filled, amount, profit,timeperiod):
     I'm planning to start a Business in {filled}
     I am able to invest in starting of a business {amount}
     I want to get profit in this percentas compere to seal in month {profit}
-    I want to achieve the best growth,stablity  and profit in  {timeperiod}
+    I want to achieve the best growth,stability  and profit in  {timeperiod}
     
     Please Suggest me 
     1. The best learning path to 
