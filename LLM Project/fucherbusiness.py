@@ -32,3 +32,8 @@ def career_advice(filled, Amount, profit,timeperiod):
     response = model.generate_content(prompt)
     return response.text if response else "Sorry, I couldn't process that request."
 
+# Streamlit UI
+tech = st.selectbox("Select Technology", ["AI", "Data Science", "Web Development", "Cybersecurity", "Cloud Computing"])
+career = st.text_input("Enter Career Goal (e.g. Data Scientist, ML Engineer, Web Developer)")
+course = st.selectbox("Select Course Type", ["Bootcamp", "Certification", "Degree", "Self-paced Learning"])
+timeperiod = st.selectbox("Select Time Period", ["3 months", "6 months", "1 year", "2 years"])
