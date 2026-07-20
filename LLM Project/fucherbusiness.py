@@ -39,7 +39,7 @@ amount = st.text_input("Enter Amount to invest (e.g. 1 lack, 5 lack , 15 lack)")
 profit = st.selectbox("Select minimum profit per month ", ["10%", "20%", "30%", "50%"])
 timeperiod = st.selectbox("Select Time Period", ["3 months", "6 months", "1 year", "2 years"])
 
-if st.button("Generate Career Plan 🚀"):
+if st.button("Generate  Plan 🚀"):
     if career.strip() == "":
         st.warning("⚠ Please enter a career goal before generating the plan.")
     else:
