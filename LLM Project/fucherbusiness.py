@@ -22,7 +22,7 @@ def career_advice(filled, Amount, profit,timeperiod):
     Please Suggest me 
     1. The best learning path to 
     2. The best resources to learn business
-    3. The best place to start 
+    3. The best place to start busi
     4. The best way to build a stable business
     5. The best way to network and find job opportunities
     6. The best way to prepare for interviews
