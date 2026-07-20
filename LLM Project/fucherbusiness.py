@@ -15,7 +15,7 @@ def career_advice(filled, amount, profit,timeperiod):
     prompt = f"""
     your are my personal AI assistant that helps me with Bast Business advice.
     I'm planning to start a Business in {filled}
-    I am able to invest in starting of a business {Amount}
+    I am able to invest in starting of a business {amount}
     I want to get profit in this percent {profit}
     I want to achieve the best growth and profit in  {timeperiod}
     
