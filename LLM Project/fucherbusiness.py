@@ -45,6 +45,6 @@ if st.button("Generate Business Plan 🚀"):
     else:
         with st.spinner("Generating your personalized roadmap..."):
             advice = career_advice(filled, amount, profit, timeperiod)
-            st.success("✅ Here’s your Career Roadmap:")
+            st.success("✅ Here’s your  Roadmap:")
             st.write(advice)
 
