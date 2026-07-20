@@ -24,7 +24,7 @@ def career_advice(filled, Amount, profit,timeperiod):
     2. The best resources to learn business
     3. The best place to start business 
     4. The best way to build a stable business
-    5. The best way to network and find clients
+    5. The best way to network and find clients 
     6. The best way to prepare for interviews
     7. Any other tips or advice to help me succeed in my life
     8. Suggest me a weekly schedule to follow to achieve my goal in the given time
