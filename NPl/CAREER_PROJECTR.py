@@ -11,7 +11,7 @@ st.write("Fill in your preferences and get a personalized career roadmap!")
 genai.configure(api_key="Enter your API key")
 model = genai.GenerativeModel('gemini-1.5-flash')
 
-def career_advice(filled, A, course, timeperiod):
+def career_advice(filled, Amount , course, timeperiod):
     prompt = f"""
     your are my personal AI assistant that helps me with career advice.
     I'm planning to start a Business in {filled}
