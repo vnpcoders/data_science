@@ -17,7 +17,7 @@ def career_advice(filled, Amount, profit,):
     I'm planning to start a career in {filled}
     My goal is to become a {Amount}
     I want to pursue a course in {profit}
-    I want to achieve the best growth  {timeperiod}
+    I want to achieve the best growth and  {timeperiod}
     
     Please Suggest me 
     1. The best learning path to achieve my goal
