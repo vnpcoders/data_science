@@ -35,6 +35,6 @@ def career_advice(filled, amount, profit,timeperiod):
 
 # Streamlit UI
 filled = st.selectbox("Select Filled ", ["Farming Related", "IT Related", "Marketing Related", "food Related", " textile Related"])
-amount = st.text_input("Enter Amount to invest (e.g. 1 lack, 5 lack , Web Developer)")
+amount = st.text_input("Enter Amount to invest (e.g. 1 lack, 5 lack , )")
 profit = st.selectbox("Select minimum profit per month ", ["Bootcamp", "Certification", "Degree", "Self-paced Learning"])
 timeperiod = st.selectbox("Select Time Period", ["3 months", "6 months", "1 year", "2 years"])
