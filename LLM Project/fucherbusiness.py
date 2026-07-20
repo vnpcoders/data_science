@@ -41,7 +41,7 @@ timeperiod = st.selectbox("Select Time Period", ["3 months", "6 months", "1 year
 
 if st.button("Generate Business Plan 🚀"):
     if amount.strip() == "":
-        st.warning("⚠ Please enter a investment  before generating the plan.")
+        st.warning("⚠ Please enter a investment amount before generating the plan.")
     else:
         with st.spinner("Generating your personalized roadmap..."):
             advice = career_advice(tech, career, course, timeperiod)
