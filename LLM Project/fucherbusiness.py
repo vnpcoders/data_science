@@ -16,7 +16,7 @@ def career_advice(filled, Amount, profit,timeperiod):
     your are my personal AI assistant that helps me with Bast Businessadvice.
     I'm planning to start a career in {filled}
     I am able to invest in starting of a business {Amount}
-    I want to get profit in this  {profit}
+    I want to get profit in this percent {profit}
     I want to achieve the best growth and profit in  {timeperiod}
     
     Please Suggest me 
