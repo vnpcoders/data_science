@@ -11,7 +11,7 @@ genai.configure(api_key="Enter your API key")
 model = genai.GenerativeModel('gemini-1.5-flash')
 
 
-def career_advice(filled, Amount, profit,timeperiod):
+def career_advice(filled, amount, profit,timeperiod):
     prompt = f"""
     your are my personal AI assistant that helps me with Bast Business advice.
     I'm planning to start a Business in {filled}
