@@ -34,6 +34,6 @@ def career_advice(filled, Amount, profit,timeperiod):
 
 # Streamlit UI
 filled = st.selectbox("Select Technology", ["AI", "Data Science", "Web Development", "Cybersecurity", "Cloud Computing"])
-Amount = st.text_input("Enter Career Goal (e.g. Data Scientist, ML Engineer, Web Developer)")
+amount = st.text_input("Enter Career Goal (e.g. Data Scientist, ML Engineer, Web Developer)")
 course = st.selectbox("Select Course Type", ["Bootcamp", "Certification", "Degree", "Self-paced Learning"])
 timeperiod = st.selectbox("Select Time Period", ["3 months", "6 months", "1 year", "2 years"])
