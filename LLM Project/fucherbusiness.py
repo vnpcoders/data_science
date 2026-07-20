@@ -14,7 +14,7 @@ model = genai.GenerativeModel('gemini-1.5-flash')
 def career_advice(filled, Amount, profit):
     prompt = f"""
     your are my personal AI assistant that helps me with Bast Businessadvice.
-    I'm planning to start a career in {tech}
+    I'm planning to start a career in {filled}
     My goal is to become a {career}
     I want to pursue a course in {course}
     I want to achieve this goal in {timeperiod}
