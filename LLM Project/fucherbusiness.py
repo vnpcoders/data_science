@@ -16,7 +16,7 @@ def career_advice(filled, Amount, profit):
     your are my personal AI assistant that helps me with Bast Businessadvice.
     I'm planning to start a career in {filled}
     My goal is to become a {Amount}
-    I want to pursue a course in {course}
+    I want to pursue a course in {pro}
     I want to achieve this goal in {timeperiod}
     
     Please Suggest me 
