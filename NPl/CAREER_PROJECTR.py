@@ -15,7 +15,7 @@ def career_advice(filled, Amount , course, timeperiod):
     prompt = f"""
     your are my personal AI assistant that helps me with career advice.
     I'm planning to start a Business in {filled}
-    My goal is to become a {career}
+    My goal is to become a {Amount}
     I want to pursue a course in {course}
     I want to achieve this goal in {timeperiod}
     
