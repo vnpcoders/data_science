@@ -3,5 +3,5 @@ import streamlit as st
 
 # ✅ Page title and header
 
-st.title("🎓 AI Career Path Advisor")
+st.title("🎓 AI  Path Advisor")
 st.write("Fill in your preferences and get a personalized career roadmap!")
